@@ -18,8 +18,8 @@ class StringUtilsTest {
                 Arguments.of("10", true),
                 Arguments.of("0", false),
                 Arguments.of("-1", false),
-                Arguments.of("", false),//refactor for exceptions
-                Arguments.of(" ", false)//refactor for exceptions
+                Arguments.of("", false),
+                Arguments.of(" ", false)
                 );
     }
 
